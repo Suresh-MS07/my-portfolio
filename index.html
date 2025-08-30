@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suresh Mewada - Portfolio</title>
+    <title>Suresh Mewada - Professional Portfolio</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     
@@ -15,6 +15,8 @@
         <div class="nav-brand">Suresh Mewada</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -25,76 +27,100 @@
         <div class="hero-content">
             <h1>Suresh Mewada</h1>
             <span id="typed-text"></span>
+            <a href="#projects" class="cta-button">View My Work <i class="fas fa-arrow-right"></i></a>
         </div>
     </section>
 
     <section id="about">
         <div class="section-container">
-            <h2 class="section-title">ABOUT ME</h2>
-            <p class="section-subtitle">A little bit about myself</p>
-            <div class="about-content">
+            <h2 class="section-title hidden">ABOUT ME</h2>
+            <p class="section-subtitle hidden">A little bit about myself</p>
+            <div class="about-content hidden">
                 <div class="about-image">
-                    <img src="images/Profile.jpg" alt="My Profile Picture">
+                    <img src="images/Profile.jpg" alt="Suresh Mewada's Profile Picture">
                 </div>
                 <div class="about-text">
                     <p>
-                        Hello! I'm Suresh Mewada, a Master of Computer Applications student based in Raipur, Chhattisgarh. I am passionate about solving problems and building useful things with technology.
+                        Hello! I'm Suresh Mewada, a Master of Computer Applications student from Raipur, passionate about developing innovative solutions and building technology that makes a difference.
                     </p>
                     <p>
-                        I am currently focusing on Full-Stack Web Development and am always eager to learn new technologies. When I'm not coding, I enjoy Cooking Food, playing cricket or reading books.
+                        I specialize in Full-Stack Web Development and am constantly exploring new tools and frameworks. When I'm not coding, I enjoy cooking, playing cricket, or diving into a good book.
                     </p>
-                    <p>
-                        Here are a few technologies I've been working with recently:
-                    </p>
-                    <ul>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Java</li>
-                        <li>SQL (MySQL)</li>
-                    </ul>
+                    <a href="Suresh_Mewada_Resume.pdf" download class="cta-button">Download Resume <i class="fas fa-download"></i></a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-container">
+            <h2 class="section-title hidden">MY JOURNEY</h2>
+            <p class="section-subtitle hidden">Education & Key Milestones</p>
+            <div class="timeline hidden">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <p>National Institute Of Technology, Raipur, CG</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science (BCA) in Computer Application</h3>
+                        <p>Govt. Holker Science College, Indore, (M.P.)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-container">
+            <h2 class="section-title hidden">MY TECH STACK</h2>
+            <p class="section-subtitle hidden">Technologies I love to work with</p>
+            <div class="skills-grid hidden">
+                <div class="skill-card"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="skill-card"><i class="fas fa-database"></i><span>MySQL</span></div>
+                <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git & GitHub</span></div>
             </div>
         </div>
     </section>
 
     <section id="projects">
         <div class="section-container">
-            <h2 class="section-title">PROJECTS</h2>
-            <p class="section-subtitle">Here are some of the things I've built</p>
-            <div class="project-card">
-    <img src="images/portfolio-project.png" alt="Personal Portfolio Website Screenshot">
-    <h3>Personal Portfolio Website</h3>
-    <p>A fully responsive personal portfolio website built from scratch to showcase my skills and projects. It features a modern dark theme, interactive animations, and a clean, single-page layout.</p>
-    <div class="project-tags">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>Typed.js</span>
-        <span>tsParticles</span>
-    </div>
-    <div class="project-links">
-        <a href="#" target="_blank">View Live</a>
-        <a href="https://github.com/Suresh-MS07/my-portfolio" target="_blank">GitHub</a>
-    </div>
-</div>
+            <h2 class="section-title hidden">PROJECTS</h2>
+            <p class="section-subtitle hidden">Here are some of the things I've built</p>
+            <div class="projects-grid">
+                <div class="project-card hidden">
+                    <img src="images/portfolio-project.png" alt="Personal Portfolio Website Screenshot">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive portfolio built from scratch to showcase my skills. Features a modern dark theme, interactive animations, and a clean layout.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                    </div>
                     <div class="project-links">
-                        <a href="#" target="_blank">View Live</a>
-                        <a href="https://github.com/your-username/your-repo-name" target="_blank">GitHub</a>
+                        <button class="learn-more-btn" data-modal="portfolio-modal">Learn More</button>
+                        <a href="https://github.com/Suresh-MS07/my-portfolio" target="_blank">GitHub</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="https://via.placeholder.com/400x250" alt="Project 2 Screenshot">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of the project, what it does, and what problem it solves. Keep it short and to the point.</p>
+                <div class="project-card hidden">
+                    <img src="images/phonebook-project.png" alt="Phonebook Application Screenshot">
+                    <h3>Phonebook Application</h3>
+                    <p>A console-based phonebook in C that allows users to add, list, modify, search, and delete contact records with data persistence.</p>
                     <div class="project-tags">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>API</span>
+                        <span>C Language</span><span>File Handling</span><span>Console App</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" target="_blank">View Live</a>
-                        <a href="#" target="_blank">GitHub</a>
+                        <button class="learn-more-btn" data-modal="phonebook-modal">Learn More</button>
+                        <a href="https://github.com/Suresh-MS07/C-PROJECT" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -103,66 +129,177 @@
 
     <section id="contact">
         <div class="section-container">
-            <h2 class="section-title">GET IN TOUCH</h2>
-            <p class="section-subtitle">
-                I'm always open to discussing new projects or opportunities.
-            </p>
-            <div class="contact-links">
-    <a href="mailto:sureshmewada990@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
-    <a href="#" target="" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-    <a href="#" target="" aria-label="GitHub"><i class="fab fa-github"></i></a>
-    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-</div>
+            <h2 class="section-title hidden">GET IN TOUCH</h2>
+            <p class="section-subtitle hidden">Have a question or want to work together? Send me a message!</p>
+            
+            <form id="contact-form" class="hidden">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            
+            <div class="social-links hidden">
+                <a href="mailto:sureshmewada990@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/suresh-mewada07/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Suresh-MS07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/suresh_0x1/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>© 2025 Suresh Mewada. All Rights Reserved.</p>
+        <p>© 2025 Suresh Mewada. Designed & Built with ❤️</p>
     </footer>
+    
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Personal Portfolio Website</h2>
+            <img src="images/portfolio-project.png" alt="Portfolio screenshot" class="modal-img">
+            <h3>Project Goal</h3>
+            <p>To create a dynamic and visually appealing online presence to showcase my skills, projects, and journey as a developer for potential employers.</p>
+            <h3>Key Features</h3>
+            <ul>
+                <li>Interactive particle background using tsParticles.</li>
+                <li>Dynamic "typed text" effect for the hero section.</li>
+                <li>Smooth scroll animations and glass-effect UI for a modern feel.</li>
+                <li>Fully responsive design for all devices.</li>
+            </ul>
+            <h3>Tech Stack</h3>
+            <p>HTML5, CSS3, JavaScript, Typed.js, tsParticles</p>
+        </div>
+    </div>
+
+    <div id="phonebook-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Phonebook Application</h2>
+            <img src="images/phonebook-project.png" alt="Phonebook screenshot" class="modal-img">
+            <h3>Project Goal</h3>
+            <p>To develop a robust and efficient console-based application for managing contacts, focusing on core programming concepts and data persistence in C.</p>
+            <h3>Key Features</h3>
+            <ul>
+                <li>Add, list, modify, search, and delete contact records.</li>
+                <li>Data is saved to a file (`.dat`), ensuring persistence between sessions.</li>
+                <li>Clean, menu-driven interface for easy navigation in the console.</li>
+            </ul>
+             <h3>Challenges & Solutions</h3>
+            <p>A key challenge was managing file I/O operations safely to prevent data corruption. I implemented structured data writing and reading, along with temporary files for modification and deletion to ensure data integrity.</p>
+            <h3>Tech Stack</h3>
+            <p>C Language, Standard I/O Libraries, File Handling</p>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        // --- Typing Effect Initialization ---
-        var options = {
-            strings: [
-                'An MCA Student',
-                'A Full-Stack Developer',
-                'A Lifelong Learner',
-                'A Problem Solver'
-            ],
-            typeSpeed: 50,
-            backSpeed: 25,
-            loop: true
-        };
-        var typed = new Typed('#typed-text', options);
+        document.addEventListener('DOMContentLoaded', function () {
+            // --- Typed.js Initialization ---
+            new Typed('#typed-text', {
+                strings: ['An MCA Student', 'A Full-Stack Developer', 'A Lifelong Learner', 'A Problem Solver'],
+                typeSpeed: 50,
+                backSpeed: 25,
+                loop: true
+            });
 
-        // --- tsParticles Initialization ---
-        tsParticles.load("tsparticles", {
-            background: { color: { value: "#121212" } },
-            fpsLimit: 60,
-            interactivity: {
-                events: {
-                    onHover: { enable: true, mode: "repulse" },
-                    resize: true
+            // --- tsParticles Initialization ---
+            tsParticles.load("tsparticles", {
+                background: { color: { value: "#121212" } },
+                fpsLimit: 60,
+                interactivity: {
+                    events: { onHover: { enable: true, mode: "repulse" }, resize: true },
+                    modes: { repulse: { distance: 100, duration: 0.4 } }
                 },
-                modes: {
-                    repulse: { distance: 100, duration: 0.4 }
+                particles: {
+                    color: { value: "#ffffff" },
+                    links: { color: "#ffffff", distance: 150, enable: true, opacity: 0.2, width: 1 },
+                    move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1 },
+                    number: { density: { enable: true, area: 800 }, value: 80 },
+                    opacity: { value: 0.2 },
+                    shape: { type: "circle" },
+                    size: { value: { min: 1, max: 5 } }
                 }
-            },
-            particles: {
-                color: { value: "#ffffff" },
-                links: { color: "#ffffff", distance: 150, enable: true, opacity: 0.2, width: 1 },
-                collisions: { enable: true },
-                move: { direction: "none", enable: true, outModes: { default: "bounce" }, random: false, speed: 1, straight: false },
-                number: { density: { enable: true, area: 800 }, value: 80 },
-                opacity: { value: 0.2 },
-                shape: { type: "circle" },
-                size: { value: { min: 1, max: 5 } }
-            },
-            detectRetina: true
-        });
-    </script>
+            });
 
+            // --- Scroll Animation Observer ---
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    }
+                });
+            }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+            document.querySelectorAll('.hidden').forEach((el) => observer.observe(el));
+
+            // --- Dynamic Navbar Logic ---
+            const nav = document.querySelector('nav');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+            });
+
+            // --- Modal Logic ---
+            const modals = document.querySelectorAll('.modal');
+            document.querySelectorAll('.learn-more-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    const modalId = button.getAttribute('data-modal');
+                    document.getElementById(modalId).style.display = 'block';
+                });
+            });
+            document.querySelectorAll('.close-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    button.closest('.modal').style.display = 'none';
+                });
+            });
+            window.addEventListener('click', (event) => {
+                modals.forEach(modal => {
+                    if (event.target == modal) {
+                        modal.style.display = 'none';
+                    }
+                });
+            });
+
+            // --- Google Sheet Form Submission Logic ---
+            const contactForm = document.getElementById('contact-form');
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault(); // Stop default form submission
+                
+                // **** अपनी Google Apps Script का URL यहाँ पेस्ट करें ****
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzuznIDMYi9PYi_YZFvZh9Ivo-iT4OXJ7bANsFYBRrD9LUPktQ62Usm8e9P_ipYj74V/exec'; 
+                const formData = new FormData(contactForm);
+                
+                submitButton.disabled = true;
+                submitButton.textContent = 'Sending...';
+
+                fetch(scriptURL, { method: 'POST', body: formData })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.result === 'success') {
+                            alert('Message sent successfully!');
+                            contactForm.reset(); // Clear the form
+                        } else {
+                            console.error('Error:', data.error);
+                            alert('Something went wrong. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error!', error.message);
+                        alert('An error occurred. Please check the console.');
+                    })
+                    .finally(() => {
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Send Message';
+                    });
+            });
+
+        }); // End of DOMContentLoaded
+    </script>
 </body>
 </html>
